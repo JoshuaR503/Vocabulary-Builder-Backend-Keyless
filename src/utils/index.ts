@@ -1,0 +1,25 @@
+import { 
+    TOKEN_SEED, 
+    SENTRY_DNS, 
+    SENTRY_API_KEY,
+    AWS_KEY,
+    AWS_ACCESS_KEY,
+    AWS_ACCESS_SECRET, 
+    AWS_URL_SERVICE,
+    MONGO_DB_URI,
+    MONGO_DB_PARAMS,
+    SALT_ROUNDS
+} from './keys/seed';
+
+export {
+    AWS_KEY,
+    AWS_ACCESS_KEY,
+    AWS_ACCESS_SECRET,
+    AWS_URL_SERVICE,
+    TOKEN_SEED,
+    SENTRY_DNS,
+    SENTRY_API_KEY,
+    MONGO_DB_URI,
+    MONGO_DB_PARAMS,
+    SALT_ROUNDS
+}
